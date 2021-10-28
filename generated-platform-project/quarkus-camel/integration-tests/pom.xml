@@ -16,6 +16,10 @@
     <module>camel-quarkus-integration-test-azure-grouped</module>
     <module>camel-quarkus-integration-test-fop</module>
     <module>camel-quarkus-integration-test-geocoder</module>
+    <module>camel-quarkus-integration-test-kafka-sasl</module>
+    <module>camel-quarkus-integration-test-kafka-sasl-ssl</module>
+    <module>camel-quarkus-integration-test-kafka-ssl</module>
+    <module>camel-quarkus-integration-test-salesforce</module>
     <module>camel-quarkus-integration-test-activemq</module>
     <module>camel-quarkus-integration-test-amqp</module>
     <module>camel-quarkus-integration-test-arangodb</module>
@@ -90,9 +94,6 @@
     <module>camel-quarkus-integration-test-jsonata</module>
     <module>camel-quarkus-integration-test-jsonpath</module>
     <module>camel-quarkus-integration-test-jta</module>
-    <module>camel-quarkus-integration-test-kafka-sasl-ssl</module>
-    <module>camel-quarkus-integration-test-kafka-sasl</module>
-    <module>camel-quarkus-integration-test-kafka-ssl</module>
     <module>camel-quarkus-integration-test-kafka</module>
     <module>camel-quarkus-integration-test-kamelet</module>
     <module>camel-quarkus-integration-test-kotlin</module>
@@ -145,7 +146,6 @@
     <module>camel-quarkus-integration-test-rest-openapi</module>
     <module>camel-quarkus-integration-test-rest</module>
     <module>camel-quarkus-integration-test-saga</module>
-    <module>camel-quarkus-integration-test-salesforce</module>
     <module>camel-quarkus-integration-test-sap-netweaver</module>
     <module>camel-quarkus-integration-test-saxon</module>
     <module>camel-quarkus-integration-test-servicenow</module>
