@@ -660,6 +660,31 @@
         </pluginManagement>
         <plugins>
             <plugin>
+                <groupId>org.codehaus.gmaven</groupId>
+                <artifactId>groovy-maven-plugin</artifactId>
+                <version>2.1.1</version>
+                <executions>
+                    <execution>
+                        <id>disk-space-check</id>
+                        <goals>
+                            <goal>execute</goal>
+                        </goals>
+                        <phase>process-sources</phase>
+                        <configuration>
+                            <source>
+                                def command = 'df'
+                                def process = command.execute()
+                                process.waitFor()
+
+                                println "======================="
+                                println process.text
+                                println "======================="
+                            </source>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-platform-bom-maven-plugin</artifactId>
                 <inherited>false</inherited>
