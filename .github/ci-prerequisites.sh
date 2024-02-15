@@ -41,5 +41,18 @@ time sudo rm -rf /usr/share/swift
 time sudo rm -rf /usr/local/lib/android
 # Remove Haskell
 time sudo rm -rf /opt/ghc
+time sudo rm -rf /usr/local/.ghcup
 # Remove pipx
 time sudo rm -rf /opt/pipx
+# Remove Rust
+time sudo rm -rf /usr/share/rust
+# Remove Go
+time sudo rm -rf /usr/local/go
+# Remove miniconda
+time sudo rm -rf /usr/share/miniconda
+# Remove powershell
+time sudo rm -rf /usr/local/share/powershell
+# Remove Google Cloud SDK
+time sudo rm -rf /usr/lib/google-cloud-sdk
+# Remove CodeQL
+time sudo rm -rf /opt/hostedtoolcache/CodeQL
